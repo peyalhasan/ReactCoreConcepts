@@ -1,4 +1,5 @@
 import './App.css'
+import Team from './Components/Team';
 import Todo from './Components/Todo';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <Todo task="Learn React" isDone= {true} ></Todo>
     <Todo task="Core concepts" isDone= {false} ></Todo>
     <Todo task="Learn React" isDone= {true} ></Todo>
+    <Team></Team>
     </>
   )
 }
